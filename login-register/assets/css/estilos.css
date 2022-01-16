@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+/*login /* */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    justify-content: center;
+    width: 180px;
+}
+h1{
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+body {
+    text-align: center;
+    background-image: url(../images/p8.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:  fixed;
+}
+
+.contenedor__todo {  /* background /* */
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    margin-top: -0px;
+    
+}
+.caja__trasera__todo{ /* Caja Guinda /* */
+    margin-top: 30px;
+    width: 100%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+    border-radius: 7px;
+    background-color: rgb(115, 12, 58, 0.93)
+}
+
+
+.caja__trasera__todo div{  /* Ambos div /* */
+    text-align: center;
+    margin: 100px 45px;
+    color: white;
+    transition:  all 500ms;
+}
+
+.caja__trasera__todo div p{
+    margin-top: 30px;
+    color:white;
+    font-weight: 600;
+}
+.caja__trasera__todo div button{
+    margin-top: 30px;
+    color:black;
+    font-weight: 600;
+}
+
+.caja__trasera__todo div h3{
+    font-weight: 400;
+    font-size:  26px;
+}
+
+
+
+.caja__trasera__todo button{
+    padding: 10px 40px;
+    border: 2px solid white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    color:black;
+    outline:none;
+    transition: all 300ms;
+}
+.caja__trasera__todo button:hover{
+    color: black;
+}
+
+/* FORMULARIOS /* */
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 15px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+    
+}
+
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+
+    transition:  left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275)
+}
+
+
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.contenedor__login-register form input{
+    width: 95%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border-color: rgba(109, 12, 46, 0.86);
+    font-size: 14px;
+    border-radius: 5px;
+    background:white;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+    
+}
+
+.formulario__register{
+    display: none;
+}
+
+.contenedor_ls{
+    margin-top: 6px;
+}
+
+
+/* Responsive Design login /* */
+@media screen and (max-width: 850px) {
+
+    
+    main {
+        margin-top: 50px;
+        margin: auto;
+    }
+    body {
+        text-align: center;
+        background-image: url(../images/p8.jpeg);
+    }
+    
+    .plecaGob{
+        width: 300px;
+    }
+
+    .caja__trasera__todo{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja__trasera__todo div {
+        margin: 50px;
+        position: absolute;
+    }
+
+    .lines-effect{
+        font-size: 30px;
+
+    }
+
+ 
+    /* formulario /* */
+    .contenedor__login-register{
+        top: -10px;
+        left: -5%;
+        margin: auto;
+    }
+
+    .contenedor__login-register form {
+        position: relative;
+    }
+}
+
+
+
+
+
+.logo {
+	width: 100px;
+	float: left;
+}
+
+.logo img {
+	width:100%;
+	vertical-align: top;
+}
+
+
+.EducacionplecaGob {
+    width:200px;
+}
+
+.plecaGob{
+    width: 320px;
+    vertical-align: 20px;
+}
+.plecaGob_1{
+    width: 300px;
+}
+
+footer {
+	width: 100%;
+	background:#333;
+	padding:20px 5px;
+	color:#fff;
+   background-color: rgb(115, 12, 58, 0.94);
+    text-align:center;
+	margin: 0px;
+	margin-top: 120px;
+}
+
+
+footer p {
+    color: white;
+	text-align:center;
+}
+
+
+
+
+
+.u-noPaddingContainer{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.contenedorGobierno{
+    background-color: white;
+    position: relative;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+
+}
+
+.barraGobmx-enlaces{
+
+	float: none;
+	display: inline-block;
+	margin:0px 5px;
+  
+
+}
+	.st0{fill:#A22244;}
+	.st1{fill:#B3B2B2;}
+
+    
